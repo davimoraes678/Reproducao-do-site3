@@ -1,0 +1,140 @@
+*{margin: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;} 
+    
+.imgmenu{background-color: black;
+height: 12vh;
+width: 12vh;}
+    
+.imgmenu svg{height: 30px;
+width: 30px;
+margin-left: 30px;
+margin-top: 30px;}
+    
+.menulog{background-color: white;
+height: 100vh;
+width: 12vh;
+padding-top: 300%;}
+
+header{position: fixed}   
+
+.menulog a{display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-bottom: 63%;
+margin-left: 40px;}
+
+#block{display: flex;}
+
+#menu{position: absolute;
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    width: 28vh;
+    opacity: 0;
+    z-index: -200;}
+    
+    #cab{display: flex;}
+    
+    .seta{background-color: black;
+    width: 9vh;
+    height:9vh;}
+    
+    .seta svg{margin-left: 25px;
+    margin-top: 15px;}
+    
+    .logo{width: 20vh;
+    background-color: #2916e0;}
+    
+    .logo img{display: block;
+    margin: auto;
+    margin-top: 3vh;}
+    
+    #list{display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25vh;}
+    
+    #list a{text-decoration: none;
+    color: #b2b2b2;
+    font-size: 30px;
+    font-weight: 600;}
+    
+    #list a:hover{color: #2916e0;
+    transition: 0.4s;}
+    
+    #list .about{color: #2916e0;}
+    
+    #check:checked~#menu{opacity: 10 !important;
+    z-index: 100;
+    transition: 1s;}
+    
+    #check
+    {height: 12vh;
+    width:12vh;
+    position: absolute;
+    position: fixed;
+    opacity: 0;
+    cursor: pointer;}
+
+
+
+#pag1{background-color: #2916e0;
+height: 125vh;
+width: 120vh;
+z-index: -100;
+color: white;}
+
+.svgs{margin-left: 22%;
+padding-top: 4%;}
+
+.aboimg{border-radius: 50%;
+margin-top: -65%;
+margin-left: 28%;}
+
+#pag1 p{padding-left: 20%;}
+
+.title{font-size: 35px;
+line-height: 40px;}
+
+.text{padding-top: 3%;
+line-height: 30px;}
+
+.button{height: 50px;
+border-radius: 50px;
+width: 130px;
+border: solid 1px gray;
+margin-left: 30%;
+margin-top: 15px;
+text-align: center;
+padding-top: 15px;}
+
+.button a{text-align: center;
+text-decoration: none;
+margin-top: -15px;
+color: white;}
+
+#cons{display: flex;
+}
+
+.email{color: white;
+margin-top: 20px;
+margin-left: 30px;}
+
+
+
+#pag2{height: 115vh;
+width: 120vh;
+z-index: -100;
+color: black;}
+
+#pag2 p{padding-left: 10%;}
+
+.titlep{font-size: 40px;
+padding-top: 5%;
+text-decoration:underline #2916e0;
+font-weight: 600;}
+
+.textb{font-weight: 300;
+line-height: 25px;
+padding-top: 10px;}

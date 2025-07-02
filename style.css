@@ -1,0 +1,134 @@
+*{margin: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;} 
+        
+.imgmenu{background-color: black;
+height: 14vh;
+width: 20vh;}
+        
+.imgmenu svg{height: 30px;
+width: 30px;
+margin-top: 35px;
+margin-left: 35px;}
+        
+.menulog{background-color: white;}
+    
+header{position: fixed;
+z-index: -10;}   
+    
+.menulog svg{display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 40px;
+margin-top: 10vh;}
+
+body{display: grid;
+grid-template-columns: 115px 1fr;}
+
+
+
+
+
+#mulher{background-image: url(https://preview.colorlib.com/theme/tulen/img/hero/1.jpg.webp);}
+#cachorro{background-image: url(https://preview.colorlib.com/theme/tulen/img/hero/2.jpg.webp);}
+#mar{background-image: url(https://preview.colorlib.com/theme/tulen/img/hero/3.jpg.webp);}
+#carro{background-image: url(https://preview.colorlib.com/theme/tulen/img/hero/4.jpg.webp);}
+#calango{background-image: url(https://preview.colorlib.com/theme/tulen/img/hero/5.jpg.webp);
+flex-grow: 7;
+order: -1;
+z-index: -1;}
+
+#imagens{display: flex;
+height: 100vh;}
+
+.img-item{flex-grow: 1;
+background-size: cover;
+background-position: 20% 0;
+transition: 0.4s;
+overflow: hidden;
+position: relative;}
+
+.img-item:hover{flex-grow: 7;}
+
+.img-item:hover~#calango{flex-grow: 1;}
+
+.text{position: absolute;
+flex-wrap: nowrap;
+color: white;
+bottom: 35%;
+left: 5%;
+opacity: 0;
+transition: 0.4s;}
+
+.img-item:hover .text{opacity: 1;
+bottom: 10%;}
+
+#calango .text{opacity: 1;
+bottom: 10%;}
+
+.img-item:hover~#calango .text{opacity: 0;
+bottom: 35%;}
+
+.cap{background-color: white;
+color: #2916e0;
+text-align: center ;
+width: 100px;
+font-weight: 600;}
+
+.title{font-size: 60px;
+font-weight: 700;}
+
+.author img{border-radius: 50px;}
+
+.author p{font-weight: 600;
+margin-left: 80px;
+margin-top: -60px;}
+
+#menu{position: absolute;
+background-color: white;
+height: 100vh;
+width: 28vh;
+opacity: 0;
+z-index: -200;}
+
+#cab{display: flex;}
+
+.seta{background-color: black;
+width: 9vh;
+height:9vh;}
+
+.seta svg{margin-left: 25px;
+margin-top: 15px;}
+
+.logo{width: 20vh;
+background-color: #2916e0;}
+
+.logo img{display: block;
+margin: auto;
+margin-top: 3vh;}
+
+#list{display: flex;
+flex-direction: column;
+text-align: center;
+padding-top: 25vh;}
+
+#list a{text-decoration: none;
+color: #b2b2b2;
+font-size: 30px;
+font-weight: 600;}
+
+#list a:hover{color: #2916e0;
+transition: 0.4s;}
+
+#list .home{color: #2916e0;}
+
+#check:checked~#menu{opacity: 10 !important;
+z-index: 100;
+transition: 1s;}
+
+#check
+{height: 12vh;
+width:12vh;
+position: absolute;
+opacity: 0;}
+

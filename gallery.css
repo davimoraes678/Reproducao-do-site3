@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+
+  
+  .hed1 {
+    position: fixed;
+    z-index: -10;
+  }
+  
+  .imgmenu {
+    background-color: black;
+    height: 12vh;
+    width: 12vh;
+  }
+  
+  .imgmenu svg {
+    height: 30px;
+    width: 30px;
+    margin-top: 35px;
+    margin-left: 35px;
+  }
+  
+  .menulog {
+    background-color: white;
+  }
+  
+  .menulog svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 10vh;
+  }
+  
+
+  
+  #check {
+    height: 12vh;
+    width: 12vh;
+    position: absolute;
+    opacity: 0;
+  }
+  
+  #menu {
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    width: 28vh;
+    opacity: 0;
+    z-index: -200;
+  }
+  
+  #check:checked ~ #menu {
+    opacity: 1;
+    z-index: 100;
+    transition: 1s;
+  }
+  
+  #cab {
+    display: flex;
+  }
+  
+  .seta {
+    background-color: black;
+    width: 9vh;
+    height: 9vh;
+  }
+  
+  .seta svg {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  
+  .logo {
+    width: 20vh;
+    background-color: #2916e0;
+  }
+  
+  .logo img {
+    display: block;
+    margin: auto;
+    margin-top: 3vh;
+  }
+  
+  #list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25vh;
+  }
+  
+  #list a {
+    text-decoration: none;
+    color: #b2b2b2;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  #list a:hover {
+    color: #2916e0;
+    transition: 0.4s;
+  }
+  
+  #list .gallery {
+    color: #2916e0;
+  }
+
+  .hed2{
+width:200vh;
+height: 10vh;
+display: flex;}
+
+.titlep{padding-left: 20vh;
+padding-top: 3vh;
+font-size: 24px;
+font-weight: 600;}
+
+.list2{
+  padding-left: 6vh;
+  color: black;
+margin-top: 2vh;}
+
+#listdiv{display: flex;
+  margin-left: 90vh;}
+  
